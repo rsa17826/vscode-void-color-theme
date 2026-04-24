@@ -1,0 +1,29 @@
+{
+  "name": "void-theme",
+  "displayName": "Void",
+  "description": "A dark theme inspired by the cosmic void — deep space blacks, spectral purples, and ethereal glows.",
+  "version": "1.0.0",
+  "publisher": "your-name",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Void",
+        "uiTheme": "vs-dark",
+        "path": "./themes/void-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "generator-code": "^1.11.18"
+  }
+}
